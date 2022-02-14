@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+            /* Header CSS Start here */
+
+header{
+    background-image: url('../Images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    padding: 40px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+.menu ul{
+    float: left;
+    margin-left: 420px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+    float: left;
+    margin-top: 55px;
+    
+}
+.menu li a{
+    font-family: 'Archivo';
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content h1{
+    font-family: 'Archivo';
+    font-weight: bold;
+    color: white;
+    font-size: 85px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.content p{
+    margin-left: 50px;
+    font-family: 'Archivo';
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+}
+button{
+    font-family: 'Montserrat';
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: #f64b3c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+            /* Header CSS End here */
+
+            /* Chef CSS Start Here */
+.chef{
+    background-image: url('../Images/chef-section-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.chef h1{
+    color: #f64b3c;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Archivo';
+    margin-top: 30px;
+    padding: 30px;
+}
+.chef p{
+    color: #f6695b;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.chef img{
+    width: 230px;
+}
+.chef h3{
+    color: #f64b3c;
+    margin-top: 10px;
+}
+            /* Chef CSS End Here */
+
+            /* Food CSS Start Here */
+.food-one{
+    background-image: url('../Images/food-section1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.food-one img{
+    width: 500px;
+    padding: 50px;
+    margin: 90px;
+}
+.food-one h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.food-one p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Archivo';
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.one{
+    font-family: 'Montserrat';
+    color: #f64b3c;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+.food-two{
+    background-image: url('../Images/burger2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.food-two img{
+    width: 500px;
+    padding: 50px;
+    margin: 140px 60px;
+}
+.food-two h1{
+    color: #f64b3c;
+    font-size: 70px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    margin-top: 230px;
+    margin-left: 100px;
+}
+.food-two p{
+    color: #f64b3c;
+    font-size: 25px;
+    font-family: 'Archivo';
+    margin-top: 50px;
+    margin-left: 100px;
+}
+            /* Food CSS End Here */
+
+            /* Statistics CSS Start Here */
+.stat{
+    background-image: url('../Images/food-section1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.stat h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.stat p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Archivo';
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 80px;
+    margin-bottom: 150px;
+
+    
+}
+.image h2{
+    color: white;
+    font-size: 80px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    margin-top: 50px;
+}
+            /* Statistics CSS End Here */
+
+            /* Package CSS Start Here */
+.package{
+    background-image: url('../Images/package.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 832px;
+}
+.box{
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 0 0px 40px;
+}
+.box img{
+    margin-bottom: 40px;
+}
+.box p{
+    color: #f64b3c;
+    font-family: 'Montserrat';
+}
+.package h1{
+    color: #f64b3c;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Archivo';
+    font-weight: bold;
+    margin: 100px;
+    
+}
+.box h2{
+    color: #f64b3c;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Archivo';
+    font-weight: bold;
+}
+            /* Package CSS End Here */
+
+            /* Comment CSS Start Here  */
+
+.sub{
+    background-image: url('../Images/thumbnail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.sub p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 250px;
+}
+.sub h3{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+            /* Comment CSS End Here  */
+
+            /* Subscribe CSS Start Here */
+.subscribe{
+    background-image: url('../Images/sub-section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 798px;
+}
+.subscribe h2{
+    font-weight: bold;
+    text-align: center;
+    color: #f64b3c;
+    font-size: 75px;
+    padding-top: 200px;
+}
+.subscribe p{
+    text-align: center;
+    font-size: 30px;
+    color: #f64b3c;
+    padding-top: 30px;
+    margin-bottom: 120px;
+}
+.btn{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f64b3c !important;
+    padding: 12px 32px;
+    margin: 0 !important;
+}
+.subscribe input{
+    margin-left: 375px;
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 35px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+}
+
+            /* Subscribe CSS End Here */
+
+            /* Footer CSS Start Here */
+
+.f-image{
+    background-image: url('../Images/footer-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 771px;
+}
+footer h4{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 250px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: white;
+    margin-left: 30px;    
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-left: 30px;
+}
+
+footer a:hover{
+    color: rgb(0, 140, 233);
+}
+
+.social a{
+    display: inline !important;
+    font-size: 50px; 
+    margin-left: 30px;
+}
+
+            /* Footer CSS End Here */
